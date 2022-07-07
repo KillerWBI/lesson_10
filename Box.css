@@ -1,0 +1,134 @@
+.foto{
+    width:100px ;
+    height: 100px;
+    border-radius: 50%;
+}
+header{
+    width: 60vw;
+    margin: 0px auto;
+    display: flex;
+    gap: 15px;
+}
+.touch{
+    border: none;
+    margin-top: 10px;
+    color: white;
+    background-color: green;
+    padding: 7px;
+    width: 70%;
+
+}
+.main > h2{
+    margin-top: 5px;
+}
+.main > p{
+    color: gray;
+    opacity: 1;
+    font-size: 17px;
+}
+.thert{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+
+.About{
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    height: auto;
+    padding-top:75px;
+    padding-left:25px ;
+    padding-right:25px ;
+}
+.About > h2{
+    text-align: center;
+
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 50px;
+    
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  
+}
+.contributions{
+    background-color: white;
+    min-width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px ;
+}
+
+.contributions > p{
+    color: gray;
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.contributions > h2{
+   color: green;
+   font-size: 34px;
+}
+
+.followers{
+    background-color: white;
+    min-width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px ;
+}
+
+.followers > p{
+    color: gray;
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.followers > h2{
+   color: green;
+   font-size: 34px;
+}
+
+.repositories{
+    background-color:white;
+    min-width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px ;
+}
+
+.repositories > p{
+    color: gray;
+    opacity: 1;
+    font-size: 17px;
+}
+
+.repositories > h2{
+   color: green;
+   font-size: 34px;
+}
+
+body{
+    margin-top: 15px ;
+}
